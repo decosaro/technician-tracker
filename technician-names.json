@@ -1,33 +1,23 @@
 {
   "version": "1.0",
-  "lastUpdated": "2024-12-02T00:00:00.000Z",
   "technicians": [
     {
       "id": "TECH-001",
       "name": "Ahmed Mahmoud",
       "username": "ahmed.mahmoud",
-      "password": "tech123",
-      "email": "ahmed.mahmoud@company.com",
-      "phone": "+20 100 123 4567",
-      "status": "active"
+      "password": "tech001"
     },
     {
       "id": "TECH-002",
       "name": "Mohamed Hassan",
       "username": "mohamed.hassan",
-      "password": "tech456",
-      "email": "mohamed.hassan@company.com",
-      "phone": "+20 100 234 5678",
-      "status": "active"
+      "password": "tech002"
     },
     {
       "id": "TECH-003",
       "name": "Ali Abdullah",
       "username": "ali.abdullah",
-      "password": "tech789",
-      "email": "ali.abdullah@company.com",
-      "phone": "+20 100 345 6789",
-      "status": "active"
+      "password": "tech003"
     }
   ]
 }
