@@ -1,1 +1,38 @@
-
+{
+  "version": "3.0",
+  "lastUpdated": "2025-12-01T21:13:02.012Z",
+  "technicians": [
+    {
+      "id": "TECH-001",
+      "name": "Ahmed Mahmoud",
+      "status": "available",
+      "currentLocation": {
+        "lat": 30.01,
+        "lng": 31.2
+      },
+      "currentTicket": null
+    },
+    {
+      "id": "TECH-002",
+      "name": "Mohamed Hassan",
+      "status": "available",
+      "currentLocation": {
+        "lat": 30.07,
+        "lng": 31.27
+      },
+      "currentTicket": null
+    },
+    {
+      "id": "TECH-003",
+      "name": "Ali Abdullah",
+      "status": "available",
+      "currentLocation": {
+        "lat": 30.02,
+        "lng": 31.26
+      },
+      "currentTicket": null
+    }
+  ],
+  "tickets": [],
+  "trips": []
+}
