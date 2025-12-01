@@ -1,17 +1,17 @@
 {
   "version": "3.0",
-  "lastUpdated": "2025-12-01T22:25:14.999Z",
+  "lastUpdated": "2025-12-01T22:25:28.246Z",
   "technicians": [
     {
       "id": "TECH-001",
       "name": "Ahmed Mahmoud",
-      "status": "available",
+      "status": "in-progress",
       "currentLocation": {
         "lat": 30.00974518880201,
         "lng": 31.201172634322102
       },
       "currentTicket": null,
-      "currentTrip": null
+      "currentTrip": "TRIP-1764627928246"
     },
     {
       "id": "TECH-002",
@@ -125,6 +125,38 @@
       "totalDistance": 0.1164114218189505,
       "totalTime": 5.543216666666667,
       "status": "completed"
+    },
+    {
+      "id": "TRIP-1764627928246",
+      "woId": "PCM-20251201-00001776",
+      "technicianId": "TECH-001",
+      "technicianName": "Ahmed Mahmoud",
+      "siteId": "ABQ0509",
+      "siteName": "ABQ2M1509",
+      "area": "hafouf",
+      "region": "Region_1",
+      "issueType": "Power Outage",
+      "startTime": "2025-12-01T22:25:28.246Z",
+      "endTime": null,
+      "startLocation": {
+        "lat": 30.00974518880201,
+        "lng": 31.201172634322102
+      },
+      "endLocation": null,
+      "targetLocation": {
+        "lat": 26.04169,
+        "lng": 49.43961
+      },
+      "pathPoints": [
+        {
+          "lat": 30.00974518880201,
+          "lng": 31.201172634322102,
+          "timestamp": "2025-12-01T22:25:28.246Z"
+        }
+      ],
+      "totalDistance": 0,
+      "totalTime": 0,
+      "status": "active"
     }
   ]
 }
