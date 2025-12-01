@@ -36,40 +36,6 @@
   ],
   "tickets": [],
   "trips": [
-    {
-      "id": "TRIP-1764623752278",
-      "woId": "PCM-20251201-00001776",
-      "technicianId": "TECH-001",
-      "technicianName": "Ahmed Mahmoud",
-      "siteId": "ABQ0500",
-      "siteName": "ABQ2M1500",
-      "area": "dammam",
-      "region": "Region_1",
-      "issueType": "Power Outage",
-      "startTime": "2025-12-01T21:15:52.278Z",
-      "endTime": "2025-12-01T21:24:53.211Z",
-      "startLocation": {
-        "lat": 30.01,
-        "lng": 31.2
-      },
-      "endLocation": {
-        "lat": 30.01,
-        "lng": 31.2
-      },
-      "targetLocation": {
-        "lat": 26.039493,
-        "lng": 49.521481
-      },
-      "pathPoints": [
-        {
-          "lat": 30.01,
-          "lng": 31.2,
-          "timestamp": "2025-12-01T21:15:52.278Z"
-        }
-      ],
-      "totalDistance": 0,
-      "totalTime": 9.01555,
-      "status": "completed"
-    }
+
   ]
 }
