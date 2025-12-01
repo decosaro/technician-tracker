@@ -1,14 +1,14 @@
 {
   "version": "3.0",
-  "lastUpdated": "2025-12-01T22:19:50.720Z",
+  "lastUpdated": "2025-12-01T22:20:06.905Z",
   "technicians": [
     {
       "id": "TECH-001",
       "name": "Ahmed Mahmoud",
       "status": "in-progress",
       "currentLocation": {
-        "lat": 30.009872594401006,
-        "lng": 31.20058631716105
+        "lat": 30.00974518880201,
+        "lng": 31.201172634322102
       },
       "currentTicket": null,
       "currentTrip": "TRIP-1764627578899"
@@ -107,10 +107,20 @@
           "lat": 30.009872594401006,
           "lng": 31.20058631716105,
           "timestamp": "2025-12-01T22:19:50.916Z"
+        },
+        {
+          "lat": 30.00980889160151,
+          "lng": 31.200879475741576,
+          "timestamp": "2025-12-01T22:20:06.905Z"
+        },
+        {
+          "lat": 30.00974518880201,
+          "lng": 31.201172634322102,
+          "timestamp": "2025-12-01T22:20:10.560Z"
         }
       ],
-      "totalDistance": 0.05820567574594608,
-      "totalTime": 0.2002833333333333,
+      "totalDistance": 0.1164114218189505,
+      "totalTime": 0.5276833333333334,
       "status": "active"
     }
   ]
