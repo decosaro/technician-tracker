@@ -1,17 +1,17 @@
 {
   "version": "3.0",
-  "lastUpdated": "2025-12-01T22:20:06.905Z",
+  "lastUpdated": "2025-12-01T22:24:20.003Z",
   "technicians": [
     {
       "id": "TECH-001",
       "name": "Ahmed Mahmoud",
-      "status": "in-progress",
+      "status": "available",
       "currentLocation": {
         "lat": 30.00974518880201,
         "lng": 31.201172634322102
       },
       "currentTicket": null,
-      "currentTrip": "TRIP-1764627578899"
+      "currentTrip": null
     },
     {
       "id": "TECH-002",
@@ -82,12 +82,15 @@
       "region": "Region_1",
       "issueType": "Service Down",
       "startTime": "2025-12-01T22:19:38.899Z",
-      "endTime": null,
+      "endTime": "2025-12-01T22:24:20.003Z",
       "startLocation": {
         "lat": 30.01,
         "lng": 31.2
       },
-      "endLocation": null,
+      "endLocation": {
+        "lat": 30.00974518880201,
+        "lng": 31.201172634322102
+      },
       "targetLocation": {
         "lat": 26.0369,
         "lng": 49.4841
@@ -120,8 +123,8 @@
         }
       ],
       "totalDistance": 0.1164114218189505,
-      "totalTime": 0.5276833333333334,
-      "status": "active"
+      "totalTime": 4.685066666666667,
+      "status": "completed"
     }
   ]
 }
