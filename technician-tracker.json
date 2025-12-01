@@ -1,17 +1,17 @@
 {
   "version": "3.0",
-  "lastUpdated": "2025-12-01T22:26:28.728Z",
+  "lastUpdated": "2025-12-01T22:28:09.159Z",
   "technicians": [
     {
       "id": "TECH-001",
       "name": "Ahmed Mahmoud",
-      "status": "in-progress",
+      "status": "available",
       "currentLocation": {
         "lat": 30.009553855824976,
         "lng": 31.20205206123316
       },
       "currentTicket": null,
-      "currentTrip": "TRIP-1764627928246"
+      "currentTrip": null
     },
     {
       "id": "TECH-002",
@@ -137,12 +137,15 @@
       "region": "Region_1",
       "issueType": "Power Outage",
       "startTime": "2025-12-01T22:25:28.246Z",
-      "endTime": null,
+      "endTime": "2025-12-01T22:28:07.146Z",
       "startLocation": {
         "lat": 30.00974518880201,
         "lng": 31.201172634322102
       },
-      "endLocation": null,
+      "endLocation": {
+        "lat": 30.009553855824976,
+        "lng": 31.20205206123316
+      },
       "targetLocation": {
         "lat": 26.04169,
         "lng": 49.43961
@@ -170,8 +173,8 @@
         }
       ],
       "totalDistance": 0.08731027232997987,
-      "totalTime": 1.0080166666666668,
-      "status": "active"
+      "totalTime": 2.6483333333333334,
+      "status": "completed"
     }
   ]
 }
