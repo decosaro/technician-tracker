@@ -1,17 +1,17 @@
 {
   "version": "3.0",
-  "lastUpdated": "2025-12-01T21:48:31.226Z",
+  "lastUpdated": "2025-12-01T22:19:38.900Z",
   "technicians": [
     {
       "id": "TECH-001",
       "name": "Ahmed Mahmoud",
-      "status": "available",
+      "status": "in-progress",
       "currentLocation": {
         "lat": 30.01,
         "lng": 31.2
       },
       "currentTicket": null,
-      "currentTrip": null
+      "currentTrip": "TRIP-1764627578899"
     },
     {
       "id": "TECH-002",
@@ -36,6 +36,72 @@
   ],
   "tickets": [],
   "trips": [
-
+    {
+      "id": "TRIP-1764623752278",
+      "woId": "PCM-20251201-00001776",
+      "technicianId": "TECH-001",
+      "technicianName": "Ahmed Mahmoud",
+      "siteId": "ABQ0500",
+      "siteName": "ABQ2M1500",
+      "area": "dammam",
+      "region": "Region_1",
+      "issueType": "Power Outage",
+      "startTime": "2025-12-01T21:15:52.278Z",
+      "endTime": "2025-12-01T21:24:53.211Z",
+      "startLocation": {
+        "lat": 30.01,
+        "lng": 31.2
+      },
+      "endLocation": {
+        "lat": 30.01,
+        "lng": 31.2
+      },
+      "targetLocation": {
+        "lat": 26.039493,
+        "lng": 49.521481
+      },
+      "pathPoints": [
+        {
+          "lat": 30.01,
+          "lng": 31.2,
+          "timestamp": "2025-12-01T21:15:52.278Z"
+        }
+      ],
+      "totalDistance": 0,
+      "totalTime": 9.01555,
+      "status": "completed"
+    },
+    {
+      "id": "TRIP-1764627578899",
+      "woId": "PCM-20251201-00001776",
+      "technicianId": "TECH-001",
+      "technicianName": "Ahmed Mahmoud",
+      "siteId": "ABQ0507",
+      "siteName": "ABQ2M1507",
+      "area": "dammam",
+      "region": "Region_1",
+      "issueType": "Service Down",
+      "startTime": "2025-12-01T22:19:38.899Z",
+      "endTime": null,
+      "startLocation": {
+        "lat": 30.01,
+        "lng": 31.2
+      },
+      "endLocation": null,
+      "targetLocation": {
+        "lat": 26.0369,
+        "lng": 49.4841
+      },
+      "pathPoints": [
+        {
+          "lat": 30.01,
+          "lng": 31.2,
+          "timestamp": "2025-12-01T22:19:38.899Z"
+        }
+      ],
+      "totalDistance": 0,
+      "totalTime": 0,
+      "status": "active"
+    }
   ]
 }
