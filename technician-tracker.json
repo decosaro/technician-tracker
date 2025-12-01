@@ -1,16 +1,17 @@
-﻿{
-  "version": "2.0",
-  "lastUpdated": "2024-12-01T00:00:00.000Z",
+{
+  "version": "3.0",
+  "lastUpdated": "2025-12-01T21:04:11.424Z",
   "technicians": [
     {
       "id": "TECH-001",
       "name": "Ahmed Mahmoud",
       "status": "available",
       "currentLocation": {
-        "lat": 30.01,
-        "lng": 31.2
+        "lat": 30.009936460961,
+        "lng": 31.200293194117474
       },
-      "currentTicket": null
+      "currentTicket": null,
+      "currentTrip": null
     },
     {
       "id": "TECH-002",
@@ -34,5 +35,46 @@
     }
   ],
   "tickets": [],
-  "trips": []
+  "trips": [
+    {
+      "id": "TRIP-1764623046068",
+      "woId": "BHAB2009",
+      "technicianId": "TECH-001",
+      "technicianName": "Ahmed Mahmoud",
+      "siteId": "ABQ0500",
+      "siteName": "ABQ2M1500",
+      "area": "dammam",
+      "region": "Region_1",
+      "issueType": "Power Outage",
+      "startTime": "2025-12-01T21:04:06.068Z",
+      "endTime": "2025-12-01T21:04:11.424Z",
+      "startLocation": {
+        "lat": 30.01,
+        "lng": 31.2
+      },
+      "endLocation": {
+        "lat": 30.009936460961,
+        "lng": 31.200293194117474
+      },
+      "targetLocation": {
+        "lat": 26.039493,
+        "lng": 49.521481
+      },
+      "pathPoints": [
+        {
+          "lat": 30.01,
+          "lng": 31.2,
+          "timestamp": "2025-12-01T21:04:06.068Z"
+        },
+        {
+          "lat": 30.009936460961,
+          "lng": 31.200293194117474,
+          "timestamp": "2025-12-01T21:04:09.071Z"
+        }
+      ],
+      "totalDistance": 0.029101721788758177,
+      "totalTime": 0.08926666666666666,
+      "status": "completed"
+    }
+  ]
 }
