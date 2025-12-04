@@ -1,17 +1,16 @@
 {
   "version": "3.0",
-  "lastUpdated": "2025-12-01T22:28:42.952Z",
+  "lastUpdated": "2025-12-04T03:57:43.131Z",
   "technicians": [
     {
       "id": "TECH-001",
       "name": "Ahmed Mahmoud",
       "status": "available",
       "currentLocation": {
-        "lat": 30.009496413090677,
-        "lng": 31.202346510434683
+        "lat": 30.01,
+        "lng": 31.2
       },
-      "currentTicket": null,
-      "currentTrip": null
+      "currentTicket": null
     },
     {
       "id": "TECH-002",
@@ -35,7 +34,5 @@
     }
   ],
   "tickets": [],
-  "trips": [
-
-  ]
+  "trips": []
 }
